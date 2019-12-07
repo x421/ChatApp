@@ -1,0 +1,19 @@
+﻿@page
+    <div id="loginBox">
+        Login:
+        <input id="login">
+        <br>
+        Password:
+        <input type="password" id="password">
+        <button id="loginButton">login</button>
+    </div>
+
+
+        <div id="text-center">&nbsp;</div>
+        <input id="message">
+        <button id="sendButton">Отправить сообщение</button>
+
+        @section Scripts {
+            <script src="~/js/signalr/dist/browser/signalr.js"></script>
+            <script src="~/js/chat.js"></script>
+        }
