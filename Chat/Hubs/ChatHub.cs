@@ -24,7 +24,7 @@ namespace Chat.Hubs
                 var json = JsonConvert.SerializeObject(cl);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
 
-                var url = "http://localhost:51392/api/Message";
+                var url = "http://localhost:80/api/Message";
 
                 var response = client.PostAsync(url, data);
 
@@ -42,7 +42,7 @@ namespace Chat.Hubs
             using (var client = new HttpClient())
             {
 
-                var url = "http://localhost:51392/api/Message/"+len;
+                var url = "http://localhost:80/api/Message/"+len;
 
                 var response = client.GetAsync(url);
 
@@ -64,7 +64,7 @@ namespace Chat.Hubs
                 var json = JsonConvert.SerializeObject(cl);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
 
-                var url = "http://localhost:51392/api/Account";
+                var url = "http://localhost:80/api/Account";
 
                 var response = client.PostAsync(url, data);
 
