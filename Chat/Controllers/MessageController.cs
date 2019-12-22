@@ -18,7 +18,7 @@ namespace Chat.Controllers
         [HttpGet("{id}")] //msg cnt
         public ActionResult<IEnumerable<Message>> Get(int id)
         {
-            SQLiteConnection conn = new SQLiteConnection("Data Source=/base.db;Version=3;");
+            SQLiteConnection conn = new SQLiteConnection("Data Source=/base/base.db;Version=3;");
             conn.Open();
             SQLiteCommand cmd = conn.CreateCommand();
 

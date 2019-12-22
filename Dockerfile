@@ -3,7 +3,7 @@ WORKDIR /app
 
 # copy csproj and restore as distinct layers
 COPY *.sln .
-COPY base.db /
+COPY Chat/*.db /base/
 COPY Chat/*.csproj ./Chat/
 RUN dotnet restore
 
