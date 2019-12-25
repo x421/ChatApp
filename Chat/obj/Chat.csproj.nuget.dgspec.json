@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\Projects\\ChatApp\\Chat\\Chat.csproj": {}
+    "X:\\Projects\\228\\ChatApp\\Chat\\Chat.csproj": {}
   },
   "projects": {
-    "X:\\Projects\\ChatApp\\Chat\\Chat.csproj": {
+    "X:\\Projects\\228\\ChatApp\\Chat\\Chat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Projects\\ChatApp\\Chat\\Chat.csproj",
+        "projectUniqueName": "X:\\Projects\\228\\ChatApp\\Chat\\Chat.csproj",
         "projectName": "Chat",
-        "projectPath": "X:\\Projects\\ChatApp\\Chat\\Chat.csproj",
+        "projectPath": "X:\\Projects\\228\\ChatApp\\Chat\\Chat.csproj",
         "packagesPath": "C:\\Users\\nwn1337\\.nuget\\packages\\",
-        "outputPath": "X:\\Projects\\ChatApp\\Chat\\obj\\",
+        "outputPath": "X:\\Projects\\228\\ChatApp\\Chat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nwn1337\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,24 +75,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

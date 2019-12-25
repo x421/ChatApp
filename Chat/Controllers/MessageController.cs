@@ -18,7 +18,7 @@ namespace Chat.Controllers
         [HttpGet("{id}")] //msg cnt
         public ActionResult<IEnumerable<Message>> Get(int id)
         {
-            SQLiteConnection conn = new SQLiteConnection("Data Source=/base/base.db;Version=3;");
+            SQLiteConnection conn = new SQLiteConnection("Data Source=base.db;Version=3;");
             conn.Open();
             SQLiteCommand cmd = conn.CreateCommand();
 
@@ -49,7 +49,7 @@ namespace Chat.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Message msg)
         {
-            SQLiteConnection conn = new SQLiteConnection("Data Source=D:/base.db;Version=3;");
+            SQLiteConnection conn = new SQLiteConnection("Data Source=base.db;Version=3;");
             conn.Open();
             SQLiteCommand cmd = conn.CreateCommand();
 
