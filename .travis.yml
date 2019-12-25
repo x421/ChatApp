@@ -3,9 +3,3 @@ solution: Chat.sln
 
 dotnet: 3.0.101
 
-install:
-  - nuget restore Chat.sln
-  - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
-script:
-  - msbuild /p:Configuration=Release Chat.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./ChatTests/bin/Release/ChatTests.dll

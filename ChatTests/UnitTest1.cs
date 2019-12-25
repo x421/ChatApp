@@ -1,6 +1,8 @@
 using Chat.Controllers;
 using Chat.Types;
+using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
+using System;
 
 namespace ChatTests
 {
@@ -23,5 +25,6 @@ namespace ChatTests
             var result = messageController.Post(msg);
             Assert.IsNotNull(result);
         }
+        
     }
 }
