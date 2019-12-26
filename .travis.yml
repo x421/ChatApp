@@ -2,4 +2,4 @@ language: csharp
 solution: Chat.sln
 
 dotnet: 3.0.101
-
+sudo: false
