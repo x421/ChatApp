@@ -1,3 +1,5 @@
 Chat/bin/*
 Chat/obj/Debug/*
 .vs/
+ChatTests2/bin/*
+ChatTests2/obj/*

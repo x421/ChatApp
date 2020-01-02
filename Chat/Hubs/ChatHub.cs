@@ -24,7 +24,7 @@ namespace Chat.Hubs
                 var json = JsonConvert.SerializeObject(cl);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
 
-                var url = "http://localhost:80/api/Message";
+                var url = "/api/Message";
 
                 var response = client.PostAsync(url, data);
 

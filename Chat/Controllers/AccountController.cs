@@ -18,7 +18,7 @@ namespace Chat.Controllers
         [HttpPost] // 0 - reg 1 - auth
         public ActionResult Post([FromBody] UserAction value) // int opId, string login, string pass
         {
-            SQLiteConnection conn = new SQLiteConnection("Data Source=/base/base.db;Version=3;");
+            SQLiteConnection conn = new SQLiteConnection("Data Source=" + Settings.BASE_PATH + ";Version=3;");
             conn.Open();
             SQLiteCommand cmd = conn.CreateCommand();
 
