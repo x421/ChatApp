@@ -7,6 +7,6 @@ namespace Chat
 {
     public static class Settings
     {
-        public static string BASE_PATH = "C:/Users/AdminA/Desktop/TestProject/ChatApp/Chat/base.db";
+        public static string BASE_PATH = "./base.db";
     }
 }
