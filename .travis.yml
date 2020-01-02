@@ -1,14 +1,9 @@
 language: csharp
-jobs:
-    include:
-    - os: linux
-        dotnet: 3.0
-        mono: none
-    - os: osx
-        osx_image: xcode11
-        dotnet: 3.0
-    mono: none
-sudo: false # use the new container-based Travis infrastructure
+solution: Chat.sln
+
+dotnet: 3.0.101
+sudo: false
+
 script:
 
 dotnet restore ./Chat.sln;
